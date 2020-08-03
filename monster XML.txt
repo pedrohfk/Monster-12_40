@@ -1,0 +1,23 @@
+<!-- 12.40 -->
+	<monster name="Bony Sea Devil" file="12.40/bony sea devil.xml" />
+	<monster name="Brachiodemon" file="12.40/brachiodemon.xml" />
+	<monster name="Branchy Crawler" file="12.40/branchy crawler.xml" />
+	<monster name="Capricious Phantom" file="12.40/capricious phantom.xml" />
+	<monster name="Cloak Of Terror" file="12.40/cloak of terror.xml" />
+	<monster name="Courage Leech" file="12.40/courage leech.xml" />
+	<monster name="Distorted Phantom" file="12.40/distorted phantom.xml" />
+	<monster name="Infernal Demon" file="12.40/infernal demon.xml" />
+	<monster name="Many Faces" file="12.40/many faces.xml" />
+	<monster name="White Lion" file="12.40/white Lion.xml" />
+	<monster name="Werelioness" file="12.40/werelioness.xml" />
+	<monster name="Rotten Golem" file="12.40/rotten golem.xml" />
+	
+	
+	<monster name="Goshnar's Cruelty" file="12.40/bosses/goshnar's cruelty.xml" />
+	<monster name="Goshnar's Greed" file="12.40/bosses/goshnar's greed.xml" />
+	<monster name="Goshnar's Hatred" file="12.40/bosses/goshnar's hatred.xml" />
+	<monster name="Goshnar's Malice" file="12.40/bosses/goshnar's malice.xml" />
+	<monster name="Goshnar's Megalomania" file="12.40/bosses/goshnar's megalomania.xml" />
+	<monster name="Srezz Yellow Eyes" file="12.40/bosses/srezz yellow eyes.xml" />
+	<monster name="Yirkas Blue Scales" file="12.40/bosses/yirkas blue scales.xml" />
+	<monster name="Ancient Lion Knight" file="12.40/bosses/ancient lion knight.xml" />

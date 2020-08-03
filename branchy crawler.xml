@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Branchy Crawler" nameDescription="a branchy crawler" race="venom" experience="31200" speed="340">
+	<health now="27000" max="27000" />
+	<look type="1297" corpse="39623" />
+	<targetchange interval="4000" chance="20" />
+	<flags>
+		<flag summonable="0" />
+		<flag attackable="1" />
+		<flag hostile="1" />
+		<flag illusionable="0" />
+		<flag convinceable="0" />
+		<flag pushable="0" />
+		<flag canpushitems="1" />
+		<flag canpushcreatures="1" />
+		<flag targetdistance="1" />
+		<flag staticattack="70" />
+		<flag runonhealth="0" />
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="470" max="-950" />
+		<attack name="holy" interval="2000" chance="35" target="1" min="-900" max="-1200">
+			<attribute key="shootEffect" value="smallholy"/>		
+		</attack>
+		<attack name="ice" interval="2000" chance="25" length="6" spread="4" min="-900" max="-1750">
+			<attribute key="areaEffect" value="iceattack" />
+		</attack>
+	</attacks>
+	<defenses armor="30" defense="30">
+		<defense name="healing" interval="2000" chance="15" min="380" max="550">
+			<attribute key="areaEffect" value="blueshimmer" />
+		</defense>	
+	</defenses>
+	<elements>		
+		<element deathPercent="-15" />
+		<element energyPercent="10" />
+		<element earthPercent="50" />
+		<element holyPercent="40" />
+		<element firePercent="-9" />
+	</elements>
+	<immunities>		
+		<immunity drown="1" />
+		<immunity lifedrain="1" />
+		<immunity paralyze="1" />
+		<immunity invisible="1" />
+	</immunities>
+	<voices interval="5000" chance="10">
+		<voice sentence="Bones are just sticks. They break easily." />
+		<voice sentence="Decay!" />
+		<voice sentence="I'll make you crawl, too!" />
+	</voices>
+	<loot>
+		<item name="crystal coin" countmax="1" chance="15000" />
+		<item name="platinum coin" countmax="20" chance="25000" />
+		<item name="ultimate health potion" countmax="3" chance="19540" />
+		<item name="gold ingot" chance="3700" />
+		<item name="roots" chance="2300" />
+		<item name="terra legs" chance="1900" />	
+		<item name="violet gem" chance="1700" />
+		<item name="green gem" chance="1700" />	
+		<item name="blue gem" chance="1700" />	
+		<item name="crawler's essence" chance="760" />	
+		<item name="hammer of wrath" chance="1200" />
+		<item name="ruthless axe" chance="900" />
+		<item name="nightmare blade" chance="1200" />
+		<item name="twiceslicer" chance="1400" />	
+		<item name="crystalline sword" chance="790" />	
+		<item name="crystal crossbow" chance="790" />		
+	</loot>
+</monster>
