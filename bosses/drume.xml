@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<monster name="Drume" nameDescription="a drume" race="blood" experience="14000" speed="290">
+	<health now="34000" max="34000"/>
+	<look type="1196" corpse="36244"/>
+	<targetchange interval="3000" chance="40"/>
+	<flags>
+		<flag summonable="0"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="0"/>
+		<flag convinceable="0"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="10"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-530" poison="80"/>
+		<attack name="earth" interval="2000" chance="15" range="3" radius="1" target="1" min="-300" max="-790">
+			<attribute key="shootEffect" value="earth"/>
+			<attribute key="areaEffect" value="explosion"/>
+		</attack>
+	</attacks>
+	<defenses armor="78" defense="78">
+	    <defense name="speed" interval="2000" chance="5" speedchange="350" duration="5000">
+		    <attribute key="areaEffect" value="redshimmer" />
+		</defense>
+	</defenses>	
+	<elements>
+	    <element energyPercent="-20"/>
+		<element earthPercent="80"/>
+	</elements>
+	<immunities>
+	    <immunity paralyze="1"/>
+		<immunity invisible="1"/>
+	</immunities>
+	<loot>
+		<item name="Platinum Coin" countmax="9" chance="100000"/>
+		<item name="Supreme Health Potion" countmax="14" chance="68000"/>
+		<item name="Ultimate Mana Potion" countmax="3" chance="68000"/>
+		<item name="Energy Bar" chance="4500"/>
+		<item name="Red Gem" chance="3900"/>
+		<item name="Royal Star" countmax="100" chance="2300"/>
+		<item name="Bullseye Potion" countmax="10" chance="1000"/>
+		<item name="Giant Shimmering Pearl" chance="2700"/>
+		<item name="Green Gem" chance="4000"/>
+		<item name="Stone Skin Amulet" chance="1800"/>
+		<item name="Yellow Gem" chance="3800"/>
+		<item name="Blue Gem" chance="1100"/>
+		<item name="Terra Legs" chance="2100"/>
+		<item name="Terra Mantle" chance="790"/>
+		<item name="Berserk Potion" countmax="10" chance="210"/>
+		<item name="Crystal Coin" countmax="10" chance="210"/>
+		<item name="Giant Sapphire" chance="210"/>
+		<item name="Mastermind Potion" countmax="10" chance="210"/>
+		<item name="Giant Sapphire" chance="210"/>
+	</loot>
+</monster>
+
+10× Terra Hood6× Ultimate Spirit PotionUnderworld RodRaw Watermelon TourmalineGold IngotSilver TokenViolet GemWand of VoodooTerra AmuletTerra RodLion AmuletLion WandLion Spangenhelm

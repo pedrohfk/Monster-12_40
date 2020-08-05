@@ -2,7 +2,7 @@
 <monster name="Branchy Crawler" nameDescription="a branchy crawler" race="venom" experience="31200" speed="340">
 	<health now="27000" max="27000" />
 	<look type="1297" corpse="39623" />
-	<targetchange interval="4000" chance="20" />
+	<targetchange interval="4000" chance="50" />
 	<flags>
 		<flag summonable="0" />
 		<flag attackable="1" />
@@ -18,10 +18,10 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="470" max="-950" />
-		<attack name="holy" interval="2000" chance="35" target="1" min="-900" max="-1200">
+		<attack name="holy" interval="2000" chance="35" target="1" min="-600" max="-1200">
 			<attribute key="shootEffect" value="smallholy"/>		
 		</attack>
-		<attack name="ice" interval="2000" chance="25" length="6" spread="4" min="-900" max="-1750">
+		<attack name="ice" interval="2000" chance="25" length="6" spread="4" min="-700" max="-1750">
 			<attribute key="areaEffect" value="iceattack" />
 		</attack>
 	</attacks>
@@ -49,7 +49,7 @@
 		<voice sentence="I'll make you crawl, too!" />
 	</voices>
 	<loot>
-		<item name="crystal coin" countmax="1" chance="15000" />
+		<item name="crystal coin" countmax="3" chance="15000" />
 		<item name="platinum coin" countmax="20" chance="25000" />
 		<item name="ultimate health potion" countmax="3" chance="19540" />
 		<item name="gold ingot" chance="3700" />

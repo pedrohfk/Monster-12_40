@@ -2,7 +2,7 @@
 <monster name="Rotten Golem" nameDescription="a rotten golem" race="venom" experience="31200" speed="340">
 	<health now="28000" max="28000" />
 	<look type="1312" corpse="39695" />
-	<targetchange interval="4000" chance="20" />
+	<targetchange interval="4000" chance="50" />
 	<flags>
 		<flag summonable="0" />
 		<flag attackable="1" />
@@ -23,7 +23,7 @@
 			<attribute key="shootEffect" value="poison" />
 			<attribute key="areaEffect" value="greenbubble" />
 		</attack>
-		<attack name="earth" interval="2000" chance="15" radius="4" target="0" min="780" max="-1280">
+		<attack name="earth" interval="2000" chance="15" radius="4" target="0" min="480" max="-980">
 			<attribute key="areaEffect" value="smallplants" />
 		</attack>
 	</attacks>
@@ -48,7 +48,7 @@
 		<immunity invisible="1" />
 	</immunities>	
 	<loot>		
-		<item name="crystal coin" countmax="1" chance="15000" />
+		<item name="crystal coin" countmax="3" chance="15000" />
 		<item name="platinum coin" countmax="20" chance="25000" />
 		<item name="great spirit potion" countmax="3" chance="18510" />
 		<item name="sacred tree amulet" chance="4700" />

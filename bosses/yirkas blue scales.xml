@@ -18,7 +18,7 @@
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="0" max="-530" poison="80"/>
-		<attack name="earth" interval="2000" chance="15" range="3" radius="1" target="1" min="-300" max="-990">
+		<attack name="earth" interval="2000" chance="15" range="3" radius="1" target="1" min="-300" max="-790">
 			<attribute key="shootEffect" value="earth"/>
 			<attribute key="areaEffect" value="explosion"/>
 		</attack>
@@ -50,6 +50,6 @@
 		<item name="demon shield" chance="1100"/>
 		<item name="lizard heart" chance="2100"/>
 		<item name="spellweaver's robe" chance="790"/>
-		<item name="red silk flower" chance="855"/>
+		<item name="red silk flower" chance="210"/>
 	</loot>
 </monster>
