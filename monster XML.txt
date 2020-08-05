@@ -11,6 +11,8 @@
 	<monster name="White Lion" file="12.40/white Lion.xml" />
 	<monster name="Werelioness" file="12.40/werelioness.xml" />
 	<monster name="Rotten Golem" file="12.40/rotten golem.xml" />
+	<monster name="Werehyaena" file="12.40/werehyaena.xml" />
+	<monster name="Vibrant Phantom" file="12.40/vibrant phantom.xml" />
 	
 	
 	<monster name="Goshnar's Cruelty" file="12.40/bosses/goshnar's cruelty.xml" />
