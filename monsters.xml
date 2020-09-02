@@ -1,4 +1,4 @@
-<!-- 12.40 -->
+	<!-- 12.40 -->
 	<monster name="Bony Sea Devil" file="12.40/bony sea devil.xml" />
 	<monster name="Brachiodemon" file="12.40/brachiodemon.xml" />
 	<monster name="Branchy Crawler" file="12.40/branchy crawler.xml" />
@@ -14,7 +14,7 @@
 	<monster name="Werehyaena" file="12.40/werehyaena.xml" />
 	<monster name="Vibrant Phantom" file="12.40/vibrant phantom.xml" />
 	
-	
+	<!-- 12.40 (Bosses) -->
 	<monster name="Goshnar's Cruelty" file="12.40/bosses/goshnar's cruelty.xml" />
 	<monster name="Goshnar's Greed" file="12.40/bosses/goshnar's greed.xml" />
 	<monster name="Goshnar's Hatred" file="12.40/bosses/goshnar's hatred.xml" />

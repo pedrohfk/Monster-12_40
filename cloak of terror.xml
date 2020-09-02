@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<monster name="Cloak of Terror" nameDescription="a cloak of terror" race="venom" experience="31200" speed="340">
+<monster name="Cloak of Terror" nameDescription="a cloak of terror" race="venom" experience="31200" speed="250">
 	<health now="28000" max="28000" />
 	<look type="1295" corpse="39615" />
 	<targetchange interval="4000" chance="20" />
@@ -26,7 +26,7 @@
 			<attribute key="shootEffect" value="energy" />
 		</attack>
 	</attacks>
-	<defenses armor="50" defense="60">
+	<defenses armor="107" defense="60">
 		<defense name="healing" interval="2000" chance="25" min="390" max="590">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>		
@@ -50,7 +50,7 @@
 		<voice sentence="You should be more positive!" />
 	</voices>
 	<loot>
-		<item id="2160" count chance="1180" /> <!-- Crystal Coin -->
+		<item id="2160" chance="1180" /> <!-- Crystal Coin -->
 		<item id="2152" chance="1180" /> <!-- Platinum Coin -->
 		<item id="2153" chance="1180" /> <!-- Violet Gem -->
 		<item id="8473" chance="1180" /> <!-- Ultimate Health Potion -->

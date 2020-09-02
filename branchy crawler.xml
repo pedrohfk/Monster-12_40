@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<monster name="Branchy Crawler" nameDescription="a branchy crawler" race="venom" experience="31200" speed="340">
+<monster name="Branchy Crawler" nameDescription="a branchy crawler" race="venom" experience="23400" speed="235">
 	<health now="27000" max="27000" />
 	<look type="1297" corpse="39623" />
 	<targetchange interval="4000" chance="50" />
@@ -15,6 +15,9 @@
 		<flag targetdistance="1" />
 		<flag staticattack="70" />
 		<flag runonhealth="0" />
+		<flag canwalkonfire="0" />
+		<flag canwalkonpoison="0" />
+		<flag canwalkonenergy="0" />
 	</flags>
 	<attacks>
 		<attack name="melee" interval="2000" min="470" max="-950" />
@@ -25,7 +28,7 @@
 			<attribute key="areaEffect" value="iceattack" />
 		</attack>
 	</attacks>
-	<defenses armor="30" defense="30">
+	<defenses armor="100" defense="45">
 		<defense name="healing" interval="2000" chance="15" min="380" max="550">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>	
@@ -49,21 +52,21 @@
 		<voice sentence="I'll make you crawl, too!" />
 	</voices>
 	<loot>
-		<item name="crystal coin" countmax="3" chance="15000" />
-		<item name="platinum coin" countmax="20" chance="25000" />
-		<item name="ultimate health potion" countmax="3" chance="19540" />
-		<item name="gold ingot" chance="3700" />
-		<item name="roots" chance="2300" />
-		<item name="terra legs" chance="1900" />	
-		<item name="violet gem" chance="1700" />
-		<item name="green gem" chance="1700" />	
-		<item name="blue gem" chance="1700" />	
-		<item name="crawler's essence" chance="760" />	
-		<item name="hammer of wrath" chance="1200" />
-		<item name="ruthless axe" chance="900" />
-		<item name="nightmare blade" chance="1200" />
-		<item name="twiceslicer" chance="1400" />	
-		<item name="crystalline sword" chance="790" />	
-		<item name="crystal crossbow" chance="790" />		
+		<item id="2160" countmax="2" chance="20000" /> <!-- Crystal Coin -->
+		<item id="2152" countmax="8" chance="40000" /> <!-- Platinum Coin -->
+		<item id="8473" countmax="3" chance="19540" /> <!-- Ultimate Health Potion -->
+		<item id="9971" chance="3700" /> <!-- Gold Ingot  -->
+		<item id="39733" chance="2300" /> <!-- Roots  -->
+		<item id="7885" chance="1900" /> <!-- Terra Legs  -->	 
+		<item id="2153" chance="1700" /> <!-- Violet Gem  -->
+		<item id="2155" chance="1700" />	<!-- Green Gem  --> 
+		<item id="2158" chance="1700" />	<!-- Blue Gem  -->
+		<item id="39777" chance="760" /> <!-- Crawler's Essence  -->	 
+		<item id="2444" chance="1200" /> <!-- Hammer Of Wrath  -->
+		<item id="6553" chance="900" /> <!-- Ruthless Axe  -->
+		<item id="7418" chance="1200" /> <!-- Nightmare Blade  -->
+		<item id="12613" chance="1400" />	 <!-- Twiceslicer  -->
+		<item id="18450" chance="790" /> <!-- Crystalline Sword  -->	 
+		<item id="18453" chance="790" />	<!-- Crystal Crossbow  --> 	
 	</loot>
 </monster>

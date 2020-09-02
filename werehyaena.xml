@@ -35,6 +35,9 @@
 		</defense>	
 	</defenses>
 	<voices interval="5000" chance="10">
+		<voice sentence="Grrrch!" />
+		<voice sentence="Eat ... you!" />
+		<voice sentence="Snort!" />
 		<voice sentence="Curse you!" />
 		<voice sentence="Snarl!" />
 	</voices>

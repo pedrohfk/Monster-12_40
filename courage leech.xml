@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<monster name="Courage Leech" nameDescription="a courage leech" race="fire" experience="29900" speed="310">
+<monster name="Courage Leech" nameDescription="a courage leech" race="energy" experience="29900" speed="226">
 	<health now="27000" max="27000" />
 	<look type="1315" corpse="39708" />
 	<targetchange interval="4000" chance="20" />
@@ -26,7 +26,7 @@
 			<attribute key="shootEffect" value="energy" />
 		</attack>
 	</attacks>
-	<defenses armor="50" defense="60">
+	<defenses armor="100" defense="60">
 		<defense name="healing" interval="2000" chance="25" min="290" max="490">
 			<attribute key="areaEffect" value="blueshimmer" />
 		</defense>		
